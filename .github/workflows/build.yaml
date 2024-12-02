@@ -7,6 +7,7 @@ on:
     types: [published]
   pull_request:
     branches: [master]
+  workflow_dispatch: {}
 
 env:
   REGISTRY: ghcr.io
